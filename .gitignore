@@ -1,0 +1,56 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+dist-ssr
+build
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE and editors
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude
+
+# Test coverage
+coverage
+
+# Temp files
+*.tmp
+*.temp
+.cache
+
+# Browser automation profile
+.x-browser-profile
+.x-session-log.json
+.x-browser-profiles
+.x-session-logs
+.x-session-scheduler
